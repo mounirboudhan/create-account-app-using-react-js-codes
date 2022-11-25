@@ -1,0 +1,68 @@
+/**
+ * 
+ * Developer Mounir Boudhan
+ * 
+ * Package Codes Create Account App
+ * 
+ * Date 11/2022
+ * 
+ */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800;900&display=swap');
+/*Normalize*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+html{
+    font-size: 15px;
+}
+h1{
+    font-size: 2rem;
+}
+h2{
+    font-size: 1.8rem;
+}
+h3{
+    font-size: 1.4rem;
+}
+p{
+    font-size: 1rem;
+}
+span{
+    font-size: 1rem;
+}
+a{
+    font-size: 1rem;
+    text-decoration: none;
+    color: #333;
+}
+li{
+    list-style: none;
+}
+input, textarea{
+    padding: 10px;
+    font-size: 1rem;
+}
+input:focus{
+    outline: none;
+}
+input::placeholder{
+    font-size: 1rem;
+}
+button{
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+}
+/*****************/
+.app .container-xl{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}

@@ -1,0 +1,31 @@
+/**
+ * 
+ * Developer Mounir Boudhan
+ * 
+ * Package Codes Create Account App
+ * 
+ * Date 11/2022
+ * 
+ */
+.path{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.path span{
+    padding: 0 5px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: var(--bs-gray-600);
+}
+.path span:first-child,
+.path span:nth-child(2){
+    color: var(--bs-info);
+    font-weight: 500;
+}
+.path strong{
+    font-size: 0.7rem;
+    color: var(--bs-secondary);
+    font-weight: 900;
+}

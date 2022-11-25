@@ -1,0 +1,99 @@
+/**
+ * 
+ * @Developer Mounir Boudhan
+ * 
+ * @Package Codes Create Account App
+ * 
+ * @Date 11/2022
+ * 
+ */
+
+.board {
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    border: 1px solid var(--bs-gray-300);
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    padding: 30px;
+    margin-bottom: 50px;
+}
+
+.board .steps {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 70px;
+}
+
+.board .steps .step {
+    display: flex;
+    align-items: center;
+}
+
+.board .steps .step .circle {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.board .steps .step .circle-active{
+    border: 1px solid var(--bs-info);
+    animation-duration: 1.5s;
+    animation-timing-function: ease-in-out;
+    animation-name: circle-active;
+}
+@keyframes circle-active {
+    from{
+        opacity: 0;
+        width: 60px;
+        height: 60px;
+    }to{
+        opacity: 1;
+        width: 45px;
+        height: 45px;
+    }
+}
+.board .steps .step .circle span {
+    background-color: var(--bs-gray-700);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+.board .steps .step .circle .span-active{
+    background-color: var(--bs-info);
+    animation-duration: 1.5s;
+    animation-timing-function: ease-in-out;
+    animation-name: span-active;
+}
+@keyframes span-active {
+    from{
+        opacity: 0.5;
+    }to{
+        opacity: 1;
+    }
+}
+.board .steps .step .line {
+    width: 60px;
+    height: 2px;
+    background-color: var(--bs-info);
+}
